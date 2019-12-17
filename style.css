@@ -1,144 +1,136 @@
-*{
-		box-sizing: border-box;
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 body {
-	overflow-x: hidden; 
-	box-sizing: border-box;
-	font-family: sans-serif;
-
+  overflow-x: hidden;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 /*Naviation*
 ************/
 .navbar {
-	background-color: rgba(0,0,0,.7) !important;
-	max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  max-width: 100%;
 }
-.navbar-logo img{
-	height: 50px;
+.navbar-logo img {
+  height: 50px;
 }
 div.offset:before {
- display: block;
- content: "";
- height: 70px;
- max-width: 100%;
- margin-top: -70px;
+  display: block;
+  content: "";
+  height: 70px;
+  max-width: 100%;
+  margin-top: -70px;
 }
 
 /*home*
 ************/
 .caption {
-	text-transform: uppercase;
-	color: black;
-	color: white;
-	width: 100%;
-	max-width: 100%;
-	position: absolute;
-	top: 40%;
+  text-transform: uppercase;
+  color: black;
+  color: white;
+  width: 100%;
+  max-width: 100%;
+  position: absolute;
+  top: 40%;
 }
 .caption h1 {
-	padding-bottom: 10px;
-	letter-spacing: 5px;
-	font-size: 50px;
-	text-shadow: 1px 1px 1px purple;
+  padding-bottom: 10px;
+  letter-spacing: 5px;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px purple;
 }
 .caption a {
-	border: 3px solid white;
-	border-radius: 0px;
-	font-size: 20px;
-	padding: 5px 20px;
-	transition: all .5s;
-
-
+  border: 3px solid white;
+  border-radius: 0px;
+  font-size: 20px;
+  padding: 5px 20px;
+  transition: all 0.5s;
 }
 .caption a:hover {
-	background: rgba(199,13,86,.3);
-	color: white;
-
+  background: rgba(199, 13, 86, 0.3);
+  color: white;
 }
 .home-inner {
-	background: url("img/landing.png");
+  background: url("img/landing.png");
 }
 h2.heading {
-	text-transform: uppercase;
-	padding: 30px 0;
-	color: #630d56;
-	font-size: 35px;
-	color: black;
-
+  text-transform: uppercase;
+  padding: 30px 0;
+  color: #630d56;
+  font-size: 35px;
+  color: black;
 }
 
 /*about
 ******/
 .jumbotron {
-	border-radius: 0;
+  border-radius: 0;
 }
 .about-card {
-	margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .about-card h2 {
-	padding: 20px 0;
+  padding: 20px 0;
 }
 .about-card p {
-	font-size: 20px;
+  font-size: 20px;
 }
 .svg-inline--fa {
-	color: #630d56;
+  color: #630d56;
 }
 
 /*portfolio
 ******/
 
 .portfolio img {
-	width: 100%;
+  width: 100%;
 }
 .portfolio .nopadding {
-	padding: 0;
+  padding: 0;
 }
-.portfolio .nopadding:hover{
-	border: 1px solid black;
+.portfolio .nopadding:hover {
+  border: 1px solid black;
 }
 /*TEAM*/
 .team-card img {
- width: 100%;
+  width: 100%;
 }
 .testimonials {
-	margin-top: 70px;
+  margin-top: 70px;
 }
 .team-card {
-	border: 1px solid gainsboro;
-	margin-top: 20px;
+  border: 1px solid gainsboro;
+  margin-top: 20px;
 }
-.team-card h3{
-padding: 30px 0;
+.team-card h3 {
+  padding: 30px 0;
 }
 
-.team-card p{
-	font-size: 19px;
-	padding: 20px;
+.team-card p {
+  font-size: 19px;
+  padding: 20px;
 }
 
 footer {
-	background: gainsboro;
-	margin-top: 60px;
-	padding: 30px 0;
-
+  background: gainsboro;
+  margin-top: 60px;
+  padding: 30px 0;
 }
 .icons {
-	margin: 0 auto;
-	display: flex;
-	justify-content: space-around;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
 }
-
-
-
 
 .landing {
   position: relative;
   width: 100%;
   height: 100vh;
   display: table;
-  background: #E9ECEF;
+  background: #e9ecef;
   z-index: -1;
 }
 .home-wrap {
@@ -159,6 +151,6 @@ footer {
   background-size: cover;
   background-position: center center;
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   will-change: transform;
 }
